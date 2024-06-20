@@ -1,0 +1,10 @@
+temp = int(input("Temperature: "))
+rain = input("Will it rain? ")
+if temp > 20:
+    print("Wear jeans and a T-shirt")
+if temp < 20 and temp >= 15:
+    print("Wear jeans and a jacket")
+if temp < 15:
+    print("Bundle up!")
+if rain == "yes":
+    print("Bring a rain jacket!")
