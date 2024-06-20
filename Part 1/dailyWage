@@ -1,0 +1,8 @@
+wage = float(input("Hourly wage: "))
+hours = int(input("Hours worked: "))
+dayOfWeek = input("Day of the week: ")
+dailyWage = float(wage * hours)
+if dayOfWeek == "Sunday":
+    print(dailyWage * 2)
+else:
+    print(dailyWage)
