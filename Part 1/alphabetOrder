@@ -1,0 +1,9 @@
+word1 = input("1st word: ")
+word2 = input("2nd word: ")
+
+if word1 < word2:
+    print(f"{word1} comes alphabetically first")
+elif word1 == word2:
+    print("These words are the same")
+else:
+    print(f"{word2} comes alphabetically first")
